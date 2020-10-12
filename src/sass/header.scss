@@ -1,0 +1,49 @@
+#header {
+  max-width: 1400px;
+  height: 80px;
+  width: 100%;
+
+  .header {
+    padding: 0 30px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      a {
+        img {
+          height: 40px;
+        }
+      }
+    }
+
+    #main-menu {
+      margin-top: 5px;
+      &.menu {
+        .menu-list {
+          display: flex;
+          margin-bottom: 0;
+
+          .menu-item {
+            list-style: none;
+            line-height: 20px;
+
+            a {
+              padding: 10px;
+              //font-size: $font-size;
+              color: #000000;
+              text-decoration: none;
+              //font-family: $font-family;
+              display: block;
+
+              &:hover {
+                color: rgb(255, 51, 102);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

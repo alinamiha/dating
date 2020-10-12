@@ -1,0 +1,173 @@
+$color: #333;
+$font-family: muli, sans-serif;
+h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button{
+  font-family: $font-family;
+  color:$color;
+  font-style: normal;
+}
+.content {
+  max-width: 1100px;
+  margin: auto;
+
+  .seeko-section {
+    display: flex;
+    padding: 100px 0 0 0;
+    &:first-child{
+      padding: 0;
+    }
+
+    .left-section {
+      width: 40%;
+      margin: 50px 25px 0;
+
+      .main-title {
+        margin-bottom: 64px;
+
+        h1 {
+          font-family: "Fira Sans", Arial, sans-serif;
+          font-weight: 700;
+          font-size: 4rem;
+          img{
+            height: 45px;
+          }
+        }
+      }
+      .power-section-title{
+        margin-bottom: 60px;
+        h2{
+          font-size: 3.15733rem;
+          font-weight: 700;
+          font-family: "Fira Sans", Arial, sans-serif;
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+      }
+      .power-section-content{
+        p{
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 1.6;
+          margin-bottom: 27px;
+          text-align: center;
+        }
+      }
+      .power-section-img{
+        width: 100%;
+        height: 100%;
+        background-image: url("/home/alina/Projects/Dating/src/img/power-bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+      }
+
+      .form-section {
+        width: 400px;
+        .filter-form {
+          .form-line {
+            padding: 1rem 0;
+            .form-title {
+              h3 {
+                font-weight: 700;
+                font-style: normal;
+                font-size: 18px;
+              }
+            }
+
+            .form-wrap-item {
+              display: flex;
+              .form-item {
+                width: 165px;
+
+                &.form-item-country{
+                  width: 100%;
+                  select{
+                    width: 100%;
+                  }
+                }
+                select{
+                  width: 150px;
+                  height: 45px;
+                  padding: 9px 18px;
+                  border-color: #f8f8f8;
+                  background-color: #f8f8f8;
+                  box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1);
+                  font-size: 90%;
+                  line-height: 1.6;
+                  font-weight: 400;
+                  border-radius: 4px;
+                  outline: 0;
+
+                  &:focus{
+                    border-color: rgba(85,94,255,.6);
+                    outline: 0;
+                  }
+
+                  label {
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 18px;
+                    color: rgba(51, 51, 51, .7);
+                    padding-left: 10px;
+                    margin-bottom: 30px;
+                  }
+                }
+                .form-arrow{
+                  display: flex;
+                  align-items: center;
+                  height: 100%;
+                  padding: 0 12px;
+                  img{
+                    height: 21px;
+                    width: 21px;
+                    margin: auto;
+                  }
+                }
+              }
+            }
+            .form-btn-submit{
+              button{
+                background-color: #555eff;
+                align-items: center;
+                border-radius: 8px;
+                border: 1px solid #555eff;
+                color: #fff;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 18px;
+                height: 48px;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    .right-section {
+      margin: 50px 25px 0;
+      width: 60%;
+      .search-bg-img{
+        width: 100%;
+        height: 100%;
+        background-image: url("/home/alina/Projects/Dating/src/img/bckg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+      }
+      .power-card{
+        padding: 72px 36px 36px;
+        background-color: #fff;
+        border-radius: 16px;
+        box-shadow: 0px 24px 60px -20px rgba(13,18,118,.19);
+        width: 50%;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+
+
+
