@@ -1,0 +1,7 @@
+.content #slider {
+  position: absolute;
+  height: 100%;
+  width: 100%; }
+  .content #slider .slider .slide div {
+    background-image: url("/home/alina/Projects/Fashion/src/img/background.jpg");
+    height: 100vh; }
