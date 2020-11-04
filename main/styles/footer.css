@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&display=swap");
 footer {
-  background-image: url("/home/alina/Projects/Dating/src/img/footer-bubble.png");
+  background-image: url("../../src/img/footer-bubble.png");
   background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
