@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&display=swap");
+footer {
+  background-image: url("/home/alina/Projects/Dating/src/img/footer-bubble.png");
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; }
+  footer .footer-container {
+    padding: 50px 0; }
+    footer .footer-container .footer-block .footer-logo {
+      display: flex;
+      margin-bottom: 20px;
+      cursor: pointer; }
+      footer .footer-container .footer-block .footer-logo span {
+        color: #555eff;
+        font-size: 50px;
+        font-family: 'Arvo', serif;
+        font-weight: 700; }
+    footer .footer-container .footer-block .footer-about-us h2 {
+      font-size: 1.333rem;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Fira Sans", Arial, sans-serif;
+      line-height: 1.4;
+      margin-bottom: 30px; }
+    footer .footer-container .footer-block .footer-about-us p {
+      font-size: .875rem;
+      color: #cccccc;
+      font-weight: 400;
+      line-height: 1.6; }
+    footer .footer-container .footer-block .footer-interests {
+      display: flex;
+      flex-wrap: wrap; }
+      footer .footer-container .footer-block .footer-interests span {
+        background-color: rgba(40, 167, 69, 0.1);
+        border: 1px solid rgba(40, 167, 69, 0.1);
+        border-radius: 17px;
+        padding: 17px;
+        font-size: .75rem;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-right: .5rem;
+        margin-bottom: .5rem;
+        cursor: pointer; }
+        footer .footer-container .footer-block .footer-interests span.intr-green {
+          color: #28a745; }
+          footer .footer-container .footer-block .footer-interests span.intr-green:hover {
+            background-color: #28a745;
+            color: #fff; }
+        footer .footer-container .footer-block .footer-interests span.intr-blue {
+          color: #007bff; }
+          footer .footer-container .footer-block .footer-interests span.intr-blue:hover {
+            background-color: #007bff;
+            color: #fff; }
+        footer .footer-container .footer-block .footer-interests span.intr-mint {
+          color: #1ad6ac; }
+          footer .footer-container .footer-block .footer-interests span.intr-mint:hover {
+            background-color: #1ad6ac;
+            color: #fff; }
+        footer .footer-container .footer-block .footer-interests span.intr-pink {
+          color: #F81895; }
+          footer .footer-container .footer-block .footer-interests span.intr-pink:hover {
+            background-color: #F81895;
+            color: #fff; }
+        footer .footer-container .footer-block .footer-interests span.intr-red {
+          color: #dc3545; }
+          footer .footer-container .footer-block .footer-interests span.intr-red:hover {
+            background-color: #dc3545;
+            color: #fff; }
+    footer .footer-container .footer-block .footer-menu .menu {
+      margin-top: 5px; }
+      footer .footer-container .footer-block .footer-menu .menu span {
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px;
+        font-size: 24px;
+        letter-spacing: 8px;
+        padding-bottom: 25px;
+        display: block;
+        padding-inline-start: 50px; }
+      footer .footer-container .footer-block .footer-menu .menu .menu-list {
+        display: flex;
+        margin-bottom: 0;
+        flex-wrap: wrap; }
+        footer .footer-container .footer-block .footer-menu .menu .menu-list .menu-item {
+          list-style: none;
+          line-height: 20px; }
+          footer .footer-container .footer-block .footer-menu .menu .menu-list .menu-item a {
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+            display: block; }
+            footer .footer-container .footer-block .footer-menu .menu .menu-list .menu-item a:hover {
+              color: #ff3366; }
+
+/*# sourceMappingURL=footer.css.map */

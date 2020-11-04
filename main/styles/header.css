@@ -1,7 +1,8 @@
 #header {
   max-width: 1400px;
   height: 80px;
-  width: 100%; }
+  width: 100%;
+  margin: 0 auto; }
   #header .header {
     padding: 0 30px;
     display: flex;
@@ -10,7 +11,7 @@
     justify-content: space-between; }
     #header .header .logo a img {
       height: 40px; }
-    #header .header #main-menu {
+    #header .header #main-menu.menu {
       margin-top: 5px; }
       #header .header #main-menu.menu .menu-list {
         display: flex;
@@ -25,3 +26,5 @@
             display: block; }
             #header .header #main-menu.menu .menu-list .menu-item a:hover {
               color: #ff3366; }
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&display=swap');
+
+footer {
+  background-image: url("/home/alina/Projects/Dating/src/img/footer-bubble.png");
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  .footer-container {
+    padding: 50px 0;
+
+    .footer-block {
+      //max-width: 300px;
+      //width: 100%;
+      .footer-logo {
+        display: flex;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        span {
+          color: #555eff;
+          font-size: 50px;
+          font-family: 'Arvo', serif;
+          font-weight: 700;
+        }
+      }
+
+      .footer-about-us {
+        h2 {
+          font-size: 1.333rem;
+          color: #ffffff;
+          font-weight: 700;
+          font-family: "Fira Sans", Arial, sans-serif;
+          line-height: 1.4;
+          margin-bottom: 30px;
+        }
+
+        p {
+          font-size: .875rem;
+          color: #cccccc;
+          font-weight: 400;
+          line-height: 1.6;
+        }
+      }
+
+      .footer-interests {
+        display: flex;
+        flex-wrap: wrap;
+
+        span {
+          background-color: rgba(40, 167, 69, 0.1);
+          border: 1px solid rgba(40, 167, 69, 0.1);
+          border-radius: 17px;
+          padding: 17px;
+          font-size: .75rem;
+          line-height: 1.2;
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-right: .5rem;
+          margin-bottom: .5rem;
+          cursor: pointer;
+
+          &.intr-green {
+            color: #28a745;
+
+            &:hover {
+              background-color: #28a745;
+              color: #fff;
+            }
+          }
+
+          &.intr-blue {
+            color: #007bff;
+
+            &:hover {
+              background-color: #007bff;
+              color: #fff;
+            }
+          }
+
+          &.intr-mint {
+            color: #1ad6ac;
+
+            &:hover {
+              background-color: #1ad6ac;
+              color: #fff;
+            }
+          }
+
+          &.intr-pink {
+            color: #F81895;
+
+            &:hover {
+              background-color: #F81895;
+              color: #fff;
+            }
+          }
+
+          &.intr-red {
+            color: #dc3545;
+
+            &:hover {
+              background-color: #dc3545;
+              color: #fff;
+            }
+          }
+        }
+      }
+
+      .footer-menu {
+        .menu {
+          margin-top: 5px;
+
+          span {
+            color: #fff;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 10px;
+            font-size: 24px;
+            letter-spacing: 8px;
+            padding-bottom: 25px;
+            display: block;
+            padding-inline-start: 50px;
+          }
+
+          .menu-list {
+            display: flex;
+            margin-bottom: 0;
+            flex-wrap: wrap;
+
+            .menu-item {
+              list-style: none;
+              line-height: 20px;
+
+
+              a {
+                padding: 10px;
+                color: #fff;
+                text-decoration: none;
+                display: block;
+
+                &:hover {
+                  color: rgb(255, 51, 102);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

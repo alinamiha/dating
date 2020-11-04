@@ -1,10 +1,11 @@
 $color: #333;
 $font-family: muli, sans-serif;
-h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button{
+h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button {
   font-family: $font-family;
-  color:$color;
+  color: $color;
   font-style: normal;
 }
+
 .content {
   max-width: 1100px;
   margin: auto;
@@ -12,7 +13,8 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button{
   .seeko-section {
     display: flex;
     padding: 100px 0 0 0;
-    &:first-child{
+
+    &:first-child {
       padding: 0;
     }
 
@@ -27,14 +29,17 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button{
           font-family: "Fira Sans", Arial, sans-serif;
           font-weight: 700;
           font-size: 4rem;
-          img{
+
+          img {
             height: 45px;
           }
         }
       }
-      .power-section-title{
+
+      .power-section-title {
         margin-bottom: 60px;
-        h2{
+
+        h2 {
           font-size: 3.15733rem;
           font-weight: 700;
           font-family: "Fira Sans", Arial, sans-serif;
@@ -42,8 +47,9 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button{
           margin-bottom: 1rem;
         }
       }
-      .power-section-content{
-        p{
+
+      .power-section-content {
+        p {
           font-size: 18px;
           font-weight: 400;
           line-height: 1.6;
@@ -51,21 +57,19 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button{
           text-align: center;
         }
       }
-      .power-section-img{
+
+      .power-section-img {
         width: 100%;
         height: 100%;
-        background-image: url("src/img/power-bg.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-
       }
 
       .form-section {
         width: 400px;
+
         .filter-form {
           .form-line {
             padding: 1rem 0;
+
             .form-title {
               h3 {
                 font-weight: 700;
@@ -76,30 +80,33 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button{
 
             .form-wrap-item {
               display: flex;
+
               .form-item {
                 width: 165px;
 
-                &.form-item-country{
+                &.form-item-country {
                   width: 100%;
-                  select{
+
+                  select {
                     width: 100%;
                   }
                 }
-                select{
+
+                select {
                   width: 150px;
                   height: 45px;
                   padding: 9px 18px;
                   border-color: #f8f8f8;
                   background-color: #f8f8f8;
-                  box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1);
+                  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
                   font-size: 90%;
                   line-height: 1.6;
                   font-weight: 400;
                   border-radius: 4px;
                   outline: 0;
 
-                  &:focus{
-                    border-color: rgba(85,94,255,.6);
+                  &:focus {
+                    border-color: rgba(85, 94, 255, .6);
                     outline: 0;
                   }
 
@@ -112,12 +119,14 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button{
                     margin-bottom: 30px;
                   }
                 }
-                .form-arrow{
+
+                .form-arrow {
                   display: flex;
                   align-items: center;
                   height: 100%;
                   padding: 0 12px;
-                  img{
+
+                  img {
                     height: 21px;
                     width: 21px;
                     margin: auto;
@@ -125,8 +134,9 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button{
                 }
               }
             }
-            .form-btn-submit{
-              button{
+
+            .form-btn-submit {
+              button {
                 background-color: #555eff;
                 align-items: center;
                 border-radius: 8px;
@@ -148,21 +158,100 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button{
     .right-section {
       margin: 50px 25px 0;
       width: 60%;
-      .search-bg-img{
+
+      .search-bg-img {
         width: 100%;
         height: 100%;
-        background-image: url("src/img/bckg.png");
+        background-image: url("/src/img/bckg.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
       }
-      .power-card{
+
+      .power-card {
         padding: 72px 36px 36px;
         background-color: #fff;
         border-radius: 16px;
-        box-shadow: 0px 24px 60px -20px rgba(13,18,118,.19);
+        box-shadow: 0px 24px 60px -20px rgba(13, 18, 118, .19);
         width: 50%;
         margin: 10px;
+
+        .power-card-img {
+          img {
+            height: 54px;
+            width: 54px;
+            margin: 0 auto 50px;
+            display: block;
+          }
+        }
+
+        .power-card-title {
+          h3 {
+            text-align: center;
+          }
+        }
+
+        .power-card-content {
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    &.about-work-section {
+      flex-direction: column;
+
+      .about-work-title {
+        h2 {
+          font-size: 3.15733rem;
+          font-weight: 700;
+          font-family: "Fira Sans", Arial, sans-serif;
+          line-height: 1.4;
+          text-align: center;
+        }
+      }
+
+      .about-work-container {
+        .about-work-row {
+          margin-bottom: 50px;
+          .about-work-right-block {
+            h3, p {
+              text-align: right;
+            }
+          }
+
+          .about-work-left-block {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3, p {
+              text-align: left;
+            }
+          }
+
+          .about-work-block-title {
+            margin-bottom: 30px;
+
+            h3 {
+              font-size: 1.776889rem;
+              font-weight: 700;
+              font-family: "Fira Sans", Arial, sans-serif;
+              line-height: 1.4;
+            }
+          }
+
+          .about-work-block-text {
+            p {
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 1.6;
+            }
+          }
+          img{
+            object-fit: contain;
+          }
+        }
       }
     }
   }
