@@ -51,6 +51,8 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button {
             display: flex; }
             .content .seeko-section .left-section .form-section .filter-form .form-line .form-wrap-item .form-item {
               width: 165px; }
+              .content .seeko-section .left-section .form-section .filter-form .form-line .form-wrap-item .form-item input {
+                cursor: pointer; }
               .content .seeko-section .left-section .form-section .filter-form .form-line .form-wrap-item .form-item.form-item-country {
                 width: 100%; }
                 .content .seeko-section .left-section .form-section .filter-form .form-line .form-wrap-item .form-item.form-item-country select {
@@ -66,7 +68,8 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button {
                 line-height: 1.6;
                 font-weight: 400;
                 border-radius: 4px;
-                outline: 0; }
+                outline: 0;
+                cursor: pointer; }
                 .content .seeko-section .left-section .form-section .filter-form .form-line .form-wrap-item .form-item select:focus {
                   border-color: rgba(85, 94, 255, 0.6);
                   outline: 0; }
@@ -96,7 +99,10 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button {
             font-style: normal;
             font-size: 18px;
             height: 48px;
-            width: 100%; }
+            width: 100%;
+            cursor: pointer; }
+            .content .seeko-section .left-section .form-section .filter-form .form-line .form-btn-submit button:focus {
+              outline: none; }
     .content .seeko-section .right-section {
       margin: 50px 25px 0;
       width: 60%; }

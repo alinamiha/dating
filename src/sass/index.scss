@@ -84,6 +84,10 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button {
               .form-item {
                 width: 165px;
 
+                input{
+                  cursor: pointer;
+                }
+
                 &.form-item-country {
                   width: 100%;
 
@@ -104,6 +108,7 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button {
                   font-weight: 400;
                   border-radius: 4px;
                   outline: 0;
+                  cursor: pointer;
 
                   &:focus {
                     border-color: rgba(85, 94, 255, .6);
@@ -147,6 +152,10 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button {
                 font-size: 18px;
                 height: 48px;
                 width: 100%;
+                cursor: pointer;
+                &:focus{
+                  outline: none;
+                }
               }
             }
           }
