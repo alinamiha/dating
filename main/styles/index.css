@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, label, select, option, button {
       .content .seeko-section .right-section .search-bg-img {
         width: 100%;
         height: 100%;
-        background-image: url("/home/alina/Projects/Dating/src/img/bckg.png");
+        background-image: url("src/img/bckg.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
